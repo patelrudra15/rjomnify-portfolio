@@ -18,122 +18,96 @@ export default function ProjectsPage() {
        
         // New projects for requested categories
         {
-            id: 7,
-            title: "TechStart Logo",
-            category: "logo",
-            description: "Modern minimalist logo design for a tech startup company.",
-            date: "May 2023",
-            image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-            details: {
-                client: "TechStart Inc.",
-                technologies: "Adobe Illustrator",
-                fullDescription: "A sleek, modern logo design that represents innovation and technology. The logo features a custom typography with a subtle geometric element that symbolizes connectivity and forward-thinking."
-            }
-        },
-        {
-            id: 8,
-            title: "Designer Portfolio Website",
-            category: "portfolio website",
-            description: "Custom portfolio website for a graphic designer showcasing their work.",
-            date: "April 2023",
-            image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-            details: {
-                client: "Sarah Johnson Design",
-                technologies: "HTML, CSS, JavaScript",
-                fullDescription: "A responsive portfolio website designed to showcase the designer's work in an elegant, minimalist layout. The site features animated transitions, a project filtering system, and contact form integration."
-            }
-        },
-        {
-            id: 9,
-            title: "Corporate Business Cards",
-            category: "business card",
-            description: "Premium business card design for executive team members.",
-            date: "February 2023",
-            image: "https://images.unsplash.com/photo-1579389083078-4e7018379f7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-            details: {
-                client: "Global Finance Corp",
-                technologies: "Adobe InDesign",
-                fullDescription: "Premium business card design featuring spot UV coating, embossed lettering, and a sophisticated color scheme that reflects the company's brand identity."
-            }
-        },
-        {
-            id: 10,
-            title: "Company Letterhead",
-            category: "letterhead",
-            description: "Professional letterhead design with matching envelope.",
-            date: "January 2023",
-            image: "https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-            details: {
-                client: "Legal Associates LLP",
-                technologies: "Adobe Photoshop, Illustrator",
-                fullDescription: "Professional letterhead design featuring the company logo, contact information, and subtle watermark pattern. The design maintains brand consistency across all printed communications."
-            }
-        },
-        {
-            id: 11,
-            title: "Branded Envelopes",
-            category: "envelope",
-            description: "Custom printed envelopes with company branding.",
-            date: "December 2022",
-            image: "https://images.unsplash.com/photo-1603792905938-1c0c7a1a0c5b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-            details: {
-                client: "Prestige Marketing",
-                technologies: "Adobe Illustrator",
-                fullDescription: "Custom printed envelopes featuring the company logo and return address in a clean, professional layout. The design complements the company's stationery suite for brand consistency."
-            }
-        },
-        {
-            id: 12,
-            title: "Product Brochure",
-            category: "brochure",
-            description: "Tri-fold product brochure highlighting key features and benefits.",
-            date: "November 2022",
-            image: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-            details: {
-                client: "GreenTech Solutions",
-                technologies: "Adobe InDesign",
-                fullDescription: "An informative tri-fold brochure showcasing the company's eco-friendly product line. The design uses vibrant imagery, clear typography, and compelling copy to highlight product features and benefits."
-            }
-        },
-        {
-            id: 13,
-            title: "Instagram Campaign",
-            category: "social media post",
-            description: "Series of social media posts for product launch campaign.",
-            date: "October 2022",
-            image: "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-            details: {
-                client: "Beauty Cosmetics",
-                technologies: "Photoshop, Illustrator",
-                fullDescription: "A series of 15 Instagram posts and stories designed to promote a new product line. The campaign maintained consistent branding while varying content types between product shots, testimonials, and lifestyle imagery."
-            }
-        },
-        {
-            id: 14,
-            title: "Social Media Strategy",
-            category: "social media trial",
-            description: "30-day social media trial with content calendar and analytics.",
-            date: "September 2022",
-            image: "https://images.unsplash.com/photo-1611162616475-46592b32151b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-            details: {
-                client: "Urban Café Chain",
-                technologies: "Canva, Facebook/Instagram",
-                fullDescription: "A 30-day social media trial including content strategy development, post creation, scheduling, and performance analytics. The trial demonstrated the value of consistent, strategic social media presence."
-            }
-        },
-        {
-            id: 15,
-            title: "PPC Advertising Campaign",
-            category: "digital marketing",
-            description: "Targeted pay-per-click campaign with conversion optimization.",
-            date: "August 2022",
-            image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-            details: {
-                client: "Online Education Platform",
-                technologies: "Google Ads, Facebook Ads",
-                fullDescription: "A comprehensive digital marketing campaign including keyword research, ad creation, landing page optimization, and conversion tracking. The campaign achieved a 35% increase in qualified leads while reducing cost-per-acquisition by 22%."
-            }
-        }
+  id: 7,
+  title: "Logo",
+  category: "logo",
+  description: "Modern geometric logo design symbolizing innovation and digital identity.",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhpFbobAzH9BVqzL1i4nXvDFWzL_rRq3mJWQ&s",
+  details: {
+    fullDescription: "A bold and contemporary logo that embodies creativity and digital excellence. Featuring clean typography and a dynamic geometric symbol, the design conveys innovation, trust, and a strong digital presence."
+  }
+},
+{
+  id: 8,
+  title: "Designer Portfolio Website",
+  category: "portfolio website",
+  description: "Elegant and responsive portfolio website built for a creative professional.",
+  image: "https://creativekigen.com/wp-content/uploads/2024/01/Qananu-Africa.png",
+  details: {
+    fullDescription: "A responsive and visually polished portfolio website crafted to highlight the designer's creative work. It features a clean, minimalist layout with smooth animations, interactive project filtering, and a fully integrated contact form for seamless communication."
+  }
+},
+{
+  id: 9,
+  title: "Corporate Business Cards",
+  category: "business card",
+  description: "Luxury business card designs tailored for professionals and executives.",
+  image: "https://img.pikbest.com/origin/09/34/63/16CpIkbEsTtQW.jpg!w700wp",
+  details: {
+    fullDescription: "Premium business card design featuring spot UV coating, embossed lettering, and a sophisticated color scheme that reflects the company's brand identity."
+  }
+},
+{
+  id: 10,
+  title: "Company Letterhead",
+  category: "letterhead",
+  description: "Branded company letterhead designed for official correspondence.",
+  image: "https://outweave.com/wp-content/uploads/2021/04/DLHP15.jpg",
+  details: {
+    fullDescription: "Professional letterhead design featuring the company logo, contact information, and subtle watermark pattern. The design maintains brand consistency across all printed communications."
+  }
+},
+{
+  id: 11,
+  title: "Branded Envelopes",
+  category: "envelope",
+  description: "Stylish envelope designs with consistent company branding.",
+  image: "https://img.freepik.com/premium-vector/envelope-design-with-yellow-color_619235-2844.jpg",
+  details: {
+    fullDescription: "Custom printed envelopes featuring the company logo and return address in a clean, professional layout. The design complements the company's stationery suite for brand consistency."
+  }
+},
+{
+  id: 12,
+  title: "Product Brochure",
+  category: "brochure",
+  description: "Eye-catching brochure design that highlights products and benefits.",
+  image: "https://i.ytimg.com/vi/S20w63t6CsE/maxresdefault.jpg",
+  details: {
+    fullDescription: "An informative tri-fold brochure showcasing the company's eco-friendly product line. The design uses vibrant imagery, clear typography, and compelling copy to highlight product features and benefits."
+  }
+},
+{
+  id: 13,
+  title: "Social Media Post",
+  category: "social media post",
+  description: "Engaging social media graphics for product promotion and awareness.",
+  image: "https://s.tmimgcdn.com/scr/1200x750/262900/business-agency-corporate-service-social-media-post-design-template-58_262935-original.jpg",
+  details: {
+    fullDescription: "A series of 15 Instagram posts and stories designed to promote a new product line. The campaign maintained consistent branding while varying content types between product shots, testimonials, and lifestyle imagery."
+  }
+},
+{
+  id: 14,
+  title: "Social Media Reels",
+  category: "social media Reels",
+  description: "Short-form video content strategy for increased social media engagement.",
+  image: "https://cdn.dribbble.com/userupload/11804729/file/original-16d9f99965a882abef1141c687fe8a40.jpg?resize=400x0",
+  details: {
+    fullDescription: "A 30-day social media trial including content strategy development, post creation, scheduling, and performance analytics. The trial demonstrated the value of consistent, strategic social media presence."
+  }
+},
+{
+  id: 15,
+  title: "Digital Marketing",
+  category: "digital marketing",
+  description: "High-impact digital marketing services focused on lead generation.",
+  image: "https://www.globalmediainsight.com/blog/wp-content/uploads/2022/09/digital-marketing-gdfc159c4c_640.jpg",
+  details: {
+    fullDescription: "A comprehensive digital marketing campaign including keyword research, ad creation, landing page optimization, and conversion tracking. The campaign achieved a 35% increase in qualified leads while reducing cost-per-acquisition by 22%."
+  }
+}
+
     ];
 
     const filters = [
@@ -145,7 +119,7 @@ export default function ProjectsPage() {
         { id: 'envelope', label: 'Envelopes' },
         { id: 'brochure', label: 'Brochures' },
         { id: 'social media post', label: 'Social Media Posts' },
-        { id: 'social media trial', label: 'Social Media Reels' },
+        { id: 'social media reel', label: 'Social Media Reels' },
         { id: 'digital marketing', label: 'Digital Marketing' }
     ];
 
@@ -477,25 +451,6 @@ export default function ProjectsPage() {
                                 </span>
 
                                 <p className="text-gray-700 mb-6">{selectedProject.details.fullDescription}</p>
-
-                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-                                    <div>
-                                        <h4 className="text-gray-500 text-sm uppercase tracking-wider mb-1">Client</h4>
-                                        <p className="text-gray-800 font-semibold">{selectedProject.details.client}</p>
-                                    </div>
-                                    <div>
-                                        <h4 className="text-gray-500 text-sm uppercase tracking-wider mb-1">Date</h4>
-                                        <p className="text-gray-800 font-semibold">{selectedProject.date}</p>
-                                    </div>
-                                    <div>
-                                        <h4 className="text-gray-500 text-sm uppercase tracking-wider mb-1">Category</h4>
-                                        <p className="text-gray-800 font-semibold capitalize">{selectedProject.category}</p>
-                                    </div>
-                                    <div>
-                                        <h4 className="text-gray-500 text-sm uppercase tracking-wider mb-1">Technologies</h4>
-                                        <p className="text-gray-800 font-semibold">{selectedProject.details.technologies}</p>
-                                    </div>
-                                </div>
 
                                 <a
                                     href="#"

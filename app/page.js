@@ -84,7 +84,7 @@ export default function Home() {
           navHidden ? '-translate-y-full' : 'translate-y-0'
         }`}>
           <div className="logo">
-            <a href="#" className="text-background text-4xl font-bold transition-all duration-300 hover:text-blue-500">RJOmnify</a>
+            <a href="#" className="text-white text-4xl font-bold transition-all duration-300 hover:text-blue-500">RJOmnify</a>
           </div>
           
           {/* Desktop Navigation */}
@@ -180,10 +180,10 @@ export default function Home() {
             backgroundRepeat: "no-repeat"
           }}
         >
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Welcome to Our Website</h1>
-          <p className="text-xl md:text-2xl mb-8">Discover amazing things with us</p>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">Welcome to RJOmnify</h1>
+          <p className="text-2xl md:text-4xl mb-8">Creative to innovation</p>
           <a 
-            href="/about" 
+            href="/About" 
             className="cta-button bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105"
           >
             Learn More
@@ -205,10 +205,10 @@ export default function Home() {
           <div>
             <h4 className="text-lg font-bold mb-4">Use Cases</h4>
             <ul className="space-y-2">
-              <li>Rage Management</li>
-              <li>Studio Software</li>
-              <li>Yoga Scheduling</li>
-              <li>Gyms</li>
+              <li>Management</li>
+              <li>Logos</li>
+              <li>brouchers</li>
+              <li>flyers</li>
             </ul>
           </div>
           <div>
@@ -216,17 +216,17 @@ export default function Home() {
             <ul className="space-y-2">
               <li>Widgets</li>
               <li>Emails</li>
-              <li>Mobile App</li>
-              <li>Payment</li>
+              <li>Social Media Post</li>
+              <li>Portfolio website</li>
             </ul>
           </div>
           <div>
             <h4 className="text-lg font-bold mb-4">Resources</h4>
             <ul className="space-y-2">
               <li>Pricing</li>
-              <li>Blog</li>
-              <li>Help Centre</li>
+              <li>contents</li>
               <li>Contact Us</li>
+              <li>Self Building</li>
             </ul>
           </div>
           <div>
@@ -241,9 +241,9 @@ export default function Home() {
           <div>
             <h4 className="text-lg font-bold mb-4">Learn</h4>
             <ul className="space-y-2">
-              <li>Video Library</li>
-              <li>Support Centre</li>
-              <li>Tutorials</li>
+              <li>Video Animation</li>
+              <li>Support 24/7</li>
+              <li>Unique ideas</li>
             </ul>
           </div>
         </div>

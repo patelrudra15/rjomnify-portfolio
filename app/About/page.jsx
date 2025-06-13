@@ -44,9 +44,9 @@ export default function About() {
   // Team members data
   const teamMembers = [
     {
-      name: "Sarah Johnson",
-      role: "CEO & Founder",
-      image: "https://randomuser.me/api/portraits/women/43.jpg",
+      name: "Rudra Patel",
+      role: "website Desiner and CEO and founder Of RJOmnify",
+      image: "/rudra.jpg",
       social: [
         { icon: <FaLinkedinIn />, link: "#" },
         { icon: <FaTwitter />, link: "#" },
@@ -54,44 +54,25 @@ export default function About() {
       ]
     },
     {
-      name: "Michael Chen",
-      role: "Creative Director",
-      image: "https://randomuser.me/api/portraits/men/32.jpg",
+      name: "Jimmy Patel",
+      role: "Design Creator and Co-founder of RJOmnify",
+      image: "/jimmy.jpg",
       social: [
         { icon: <FaLinkedinIn />, link: "#" },
         { icon: <FaBehance />, link: "#" },
         { icon: <FaEnvelope />, link: "#" }
       ]
     },
-    {
-      name: "Emma Rodriguez",
-      role: "Lead Developer",
-      image: "https://randomuser.me/api/portraits/women/65.jpg",
-      social: [
-        { icon: <FaLinkedinIn />, link: "#" },
-        { icon: <FaGithub />, link: "#" },
-        { icon: <FaEnvelope />, link: "#" }
-      ]
-    },
-    {
-      name: "David Wilson",
-      role: "Marketing Director",
-      image: "https://randomuser.me/api/portraits/men/68.jpg",
-      social: [
-        { icon: <FaLinkedinIn />, link: "#" },
-        { icon: <FaTwitter />, link: "#" },
-        { icon: <FaEnvelope />, link: "#" }
-      ]
-    }
   ];
 
   // Timeline data
   const timelineItems = [
-    { year: "2015", title: "Company Founded", description: "Launched as a graphic design studio with our first office in New York." },
-    { year: "2017", title: "Expanded Services", description: "Added web development and digital marketing to our service offerings." },
-    { year: "2019", title: "First International Client", description: "Began working with clients outside the US, starting with London-based businesses." },
-    { year: "2021", title: "Team Growth", description: "Expanded our team to 15 full-time employees and moved to a larger office." },
-    { year: "2023", title: "Current Day", description: "Serving 200+ clients worldwide with a team of 25+ specialists." }
+    { year: "2022", title: "Bachlor Started", description: "Started To My Bachlor's Journey In Silver Oak University." },
+    { year: "2023", title: "Build a Projects", description: "Build To My First Project to AI Content Generator To help a Social Media content Creator aAnd Digital Marketing." },
+    { year: "2024", title: "Start To My Graphic Design Classes", description: "In a college Life Do not Waste My time And Started My graphic Design Class." },
+    { year: "2024", title: "Complete My Course and Started My CEH course", description: "after completed my graphic design course and started to cyber security and ethical hacking course." },
+    { year: "2025-Started", title: "Start-up this freelancing Company", description: "After Complete my course to start-up this freelancing company and first client to build a basic packages." },
+    { year: "2025-Middle", title: "complete my graduation", description: "Complete my bachlor's journey." }
   ];
 
   // Values data
@@ -110,10 +91,10 @@ export default function About() {
       title: "Services",
       links: [
         { text: "Web Design", href: "#" },
-        { text: "Web Development", href: "#" },
-        { text: "Branding", href: "#" },
+        { text: "UI/UX Design", href: "#" },
+        { text: "Logo Design", href: "#" },
         { text: "Digital Marketing", href: "#" },
-        { text: "SEO", href: "#" }
+        { text: "Social Media Post Building", href: "#" }
       ]
     },
     {
@@ -123,15 +104,15 @@ export default function About() {
         { text: "Our Team", href: "#" },
         { text: "Careers", href: "#" },
         { text: "Blog", href: "#" },
-        { text: "Contact", href: "#" }
+        { text: "Contact", href: "/Contact" }
       ]
     },
     {
       title: "Contact",
       links: [
-        { text: "123 Business Ave, New York", href: "#", icon: <FaMapMarkerAlt /> },
-        { text: "+1 (555) 123-4567", href: "#", icon: <FaPhone /> },
-        { text: "hello@yourbrand.com", href: "#", icon: <FaEnvelope /> }
+        { text: "Omkar Elegance, RTO Road Vastral, Galaxy Rd, Opposite galaxy coral Bunglow, Vastral, Ahmedabad, Gujarat 382418", href: "#", icon: <FaMapMarkerAlt /> },
+        { text: "+91 7069262624", href: "#", icon: <FaPhone /> },
+        { text: "rjomnify2315@gmail.com", href: "#", icon: <FaEnvelope /> }
       ]
     }
   ];
@@ -237,21 +218,21 @@ export default function About() {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2" data-aos="fade-right">
               <div className="mb-10">
-                <h2 className="text-3xl md:text-4xl font-bold mb-4 relative inline-block">
+                <h2 className="text-3xl text-black md:text-4xl font-bold mb-4 relative inline-block">
                   Who We Are
                   <span className="absolute bottom-0 left-0 w-16 h-1 bg-gradient-to-r from-indigo-500 to-indigo-700 rounded"></span>
                 </h2>
-                <p className="text-gray-500 text-lg max-w-md">
+                <p className="text-black text-lg max-w-md">
                   Our journey and what makes us different
                 </p>
               </div>
-              <p className="mb-4 text-gray-700">
-                YourBrand was founded with a simple mission: to help businesses thrive in the digital world through beautiful design, innovative technology, and strategic marketing.
+              <p className="mb-4 text-black">
+                RJOmnify was founded with a simple mission: to help businesses thrive in the digital world through beautiful design, innovative technology, and strategic marketing.
               </p>
-              <p className="mb-4 text-gray-700">
-                What started as a two-person operation in a small home office has grown into a team of 25+ talented designers, developers, and marketers serving clients across 15 countries.
+              <p className="mb-4 text-black">
+                What started as a two-person operation in a small home office has grown into a team size of 2 talented designers, developers, and marketers serving clients across 15 countries and All Price are Affordable Range to build Check My Package And Contact Me.
               </p>
-              <p className="text-gray-700">
+              <p className="text-black">
                 We believe in building long-term partnerships with our clients, not just delivering one-off projects. Our approach combines creative thinking with data-driven strategies to deliver results that matter.
               </p>
             </div>
@@ -275,11 +256,11 @@ export default function About() {
         </div>
         <div className="container mx-auto px-4 relative">
           <div className="text-center mb-16" data-aos="fade-up">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 relative inline-block">
+            <h2 className="text-3xl text-black md:text-4xl font-bold mb-4 relative inline-block">
               Our Journey
               <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-gradient-to-r from-indigo-500 to-indigo-700 rounded"></span>
             </h2>
-            <p className="text-gray-500 text-lg max-w-lg mx-auto">
+            <p className="text-black text-lg max-w-lg mx-auto">
               Key milestones in our company history
             </p>
           </div>
@@ -299,8 +280,8 @@ export default function About() {
                 >
                   <div className="p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
                     <div className="text-indigo-600 font-bold mb-2">{item.year}</div>
-                    <h3 className="text-xl font-bold mb-2 text-gray-800">{item.title}</h3>
-                    <p className="text-gray-600">{item.description}</p>
+                    <h3 className="text-xl font-bold mb-2 text-black">{item.title}</h3>
+                    <p className="text-black">{item.description}</p>
                     {/* Timeline dot */}
                     <div className={`hidden md:block absolute top-6 w-6 h-6 bg-white border-4 border-indigo-500 rounded-full shadow-md ${index % 2 === 0 ? '-right-3' : '-left-3'}`}></div>
                   </div>
@@ -312,14 +293,14 @@ export default function About() {
       </section>
 
       {/* Team Section */}
-      <section className="py-28 bg-white">
+      <section className="py-28  bg-white">
         <div className="container mx-auto px-4">
           <div className="mb-16" data-aos="fade-up">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 relative inline-block">
+            <h2 className="text-3xl text-black md:text-4xl font-bold mb-4 relative inline-block">
               Meet Our Team
               <span className="absolute bottom-0 left-0 w-16 h-1 bg-gradient-to-r from-indigo-500 to-indigo-700 rounded"></span>
             </h2>
-            <p className="text-gray-500 text-lg">
+            <p className="text-black text-lg">
               The talented people behind YourBrand's success
             </p>
           </div>
@@ -341,8 +322,8 @@ export default function About() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
                 <div className="p-6 text-center">
-                  <h3 className="text-xl font-bold mb-1 text-gray-800">{member.name}</h3>
-                  <p className="text-gray-500 mb-4">{member.role}</p>
+                  <h3 className="text-xl font-bold mb-1 text-black">{member.name}</h3>
+                  <p className="text-black mb-4">{member.role}</p>
                   <div className="flex justify-center space-x-3">
                     {member.social.map((social, i) => (
                       <a 
@@ -366,11 +347,11 @@ export default function About() {
         <div className="absolute -top-1/2 -left-1/2 w-[200%] h-[200%] bg-gradient-to-br from-indigo-500/5 to-transparent opacity-20"></div>
         <div className="container mx-auto px-4 relative">
           <div className="text-center mb-16" data-aos="fade-up">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 relative inline-block">
+            <h2 className="text-3xl text-black md:text-4xl font-bold mb-4 relative inline-block">
               Our Core Values
               <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-gradient-to-r from-indigo-500 to-indigo-700 rounded"></span>
             </h2>
-            <p className="text-gray-500 text-lg max-w-lg mx-auto">
+            <p className="text-black text-lg max-w-lg mx-auto">
               The principles that guide everything we do
             </p>
           </div>
@@ -386,10 +367,10 @@ export default function About() {
                 <div className="text-5xl mb-6 text-indigo-600 group-hover:text-white transition-colors duration-300">
                   {value.icon}
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-gray-800 group-hover:text-white transition-colors duration-300">
+                <h3 className="text-xl font-bold mb-3 text-black group-hover:text-white transition-colors duration-300">
                   {value.title}
                 </h3>
-                <p className="text-gray-600 group-hover:text-white/90 transition-colors duration-300">
+                <p className="text-black group-hover:text-white/90 transition-colors duration-300">
                   {value.description}
                 </p>
               </div>
@@ -432,7 +413,7 @@ export default function About() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-16">
             <div>
-              <a href="#" className="text-2xl font-bold mb-4 inline-block">YourBrand</a>
+              <a href="#" className="text-2xl font-bold mb-4 inline-block">Rj Omnify</a>
               <p className="text-gray-400 mb-6">
                 Helping businesses thrive in the digital world through innovative design, development, and marketing solutions.
               </p>
